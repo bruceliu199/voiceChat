@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">OldVoiceChat</string>
+
+    <string name="just_15">15分钟前</string>
+    <string name="just_30">30分钟前</string>
+    <string name="just_1hour">1小时前</string>
+    <string name="just">刚刚</string>
+    <string name="Days_ago">天前</string>
+    <string name="An_hour_ago">小时前</string>
+    <string name="minutes_ago">分钟前</string>
+</resources>

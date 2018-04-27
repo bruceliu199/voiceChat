@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginTop="15dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/icon" />
+
+        <ImageView
+            android:id="@+id/iv_voice_bg"
+            android:layout_toLeftOf="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:minWidth="100dp"
+            android:background="@drawable/chat_bg_myself"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_voice_length"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignTop="@id/iv_voice_bg"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_toLeftOf="@+id/iv_voice_bg"
+            android:text="3&apos;&apos;"
+            android:gravity="center_vertical"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+
+        <RelativeLayout
+            android:layout_toLeftOf="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_marginRight="20dp"
+            >
+            <View
+                android:id="@+id/voice_anim"
+                android:layout_centerVertical="true"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/data_ico_left_voice_three1"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

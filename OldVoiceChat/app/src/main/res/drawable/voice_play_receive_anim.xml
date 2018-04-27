@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/data_ico_right_voice_one1"
+        android:duration="300"></item>
+    <item
+        android:drawable="@drawable/data_ico_right_voice_two1"
+        android:duration="300"></item>
+    <item
+        android:drawable="@drawable/data_ico_right_voice_three1"
+        android:duration="300"></item>
+
+</animation-list>
